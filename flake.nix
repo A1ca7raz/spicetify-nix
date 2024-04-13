@@ -40,7 +40,10 @@
     # legacy stuff thats just for x86_64 linux
     // (
       let
-        legacyPkgs = import nixpkgs {system = flake-utils.lib.system.x86_64-linux;};
+        legacyPkgs = import nixpkgs {
+          config.allowUnfree = true;
+          system = flake-utils.lib.system.x86_64-linux;
+        };
       in {
         pkgs =
           nixpkgs.lib.warn
@@ -62,7 +65,10 @@
       ]
     )
     (system: let
-      pkgs = import nixpkgs {inherit system;};
+      pkgs = import nixpkgs {
+        inherit system;
+        config.allowUnfree = true;
+      };
     in {
       libs = pkgs.callPackage ./lib {};
 
