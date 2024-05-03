@@ -120,16 +120,16 @@
   };
   fluentSrc = {
     pname = "fluentSrc";
-    version = "38b0257ea8cd4067fe0cdb840b8f9fd611fddf56";
+    version = "64b946af1ee4a5ed761d2f065c45b710e06bc123";
     src = fetchgit {
       url = "https://github.com/williamckha/spicetify-fluent";
-      rev = "38b0257ea8cd4067fe0cdb840b8f9fd611fddf56";
+      rev = "64b946af1ee4a5ed761d2f065c45b710e06bc123";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-PSlBFjbb2sscS/uz6izVlVIaLo0OoO3rM9zfqHXKNxI=";
+      sha256 = "sha256-M6kczYmo0/+yL6iuMgkXECIQLOXDIR1aY8htS4KWjCE=";
     };
-    date = "2024-04-27";
+    date = "2024-05-02";
   };
   groupSessionSrc = {
     pname = "groupSessionSrc";
@@ -250,29 +250,29 @@
   };
   officialSrc = {
     pname = "officialSrc";
-    version = "8ec27dd091ead45003dd5a76f6624075bae39de6";
+    version = "bf98eb40cdd1f474d66a5819686020a170b123f2";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-cli";
-      rev = "8ec27dd091ead45003dd5a76f6624075bae39de6";
+      rev = "bf98eb40cdd1f474d66a5819686020a170b123f2";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-lwbd5sXqzC3H2GwmVqxAdt6Qcic00wh39l5Kp1UIYAs=";
+      sha256 = "sha256-6XMRlDnnrllrf1RvwAUN+UoEgKFUWieBN3jimnsGOo4=";
     };
-    date = "2024-05-02";
+    date = "2024-05-03";
   };
   officialThemes = {
     pname = "officialThemes";
-    version = "d44dcab858930c2f72d0c38ad1198f7b76e1396e";
+    version = "7460a018dec5f026fc9b6c6564c948c168325789";
     src = fetchgit {
       url = "https://github.com/spicetify/spicetify-themes";
-      rev = "d44dcab858930c2f72d0c38ad1198f7b76e1396e";
+      rev = "7460a018dec5f026fc9b6c6564c948c168325789";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-g2TEX4egBFzeUzZX7ncpNTNsREYpIk7HJeSAJgOluaw=";
+      sha256 = "sha256-q81guDB+Uxf1j4mlqlBFqUC3TGEQ2PCwUgEmSIvE6vQ=";
     };
-    date = "2024-04-25";
+    date = "2024-05-04";
   };
   omniSrc = {
     pname = "omniSrc";
