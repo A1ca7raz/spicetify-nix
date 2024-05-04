@@ -457,7 +457,7 @@
     },
     "powerBarSrc": {
         "cargoLocks": null,
-        "date": "2024-04-26",
+        "date": "2024-05-04",
         "extract": null,
         "name": "powerBarSrc",
         "passthru": null,
@@ -467,12 +467,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "c3c191803934053885eb7a275c09a1e3b943f590",
-            "sha256": "sha256-zagQwuRpKADrhJHfFc/SkeARj7bwc/DQBMlv6Sv/q3U=",
+            "rev": "021ffb8839a6ef5959f306693288f2b96bd3b992",
+            "sha256": "sha256-fWxe1JWWfICA+wuTH+wok+xvYHS9+rG9s51LqeMEDAE=",
             "type": "git",
             "url": "https://github.com/jeroentvb/spicetify-power-bar"
         },
-        "version": "c3c191803934053885eb7a275c09a1e3b943f590"
+        "version": "021ffb8839a6ef5959f306693288f2b96bd3b992"
     },
     "retroBlurSrc": {
         "cargoLocks": null,

@@ -315,16 +315,16 @@
   };
   powerBarSrc = {
     pname = "powerBarSrc";
-    version = "c3c191803934053885eb7a275c09a1e3b943f590";
+    version = "021ffb8839a6ef5959f306693288f2b96bd3b992";
     src = fetchgit {
       url = "https://github.com/jeroentvb/spicetify-power-bar";
-      rev = "c3c191803934053885eb7a275c09a1e3b943f590";
+      rev = "021ffb8839a6ef5959f306693288f2b96bd3b992";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-zagQwuRpKADrhJHfFc/SkeARj7bwc/DQBMlv6Sv/q3U=";
+      sha256 = "sha256-fWxe1JWWfICA+wuTH+wok+xvYHS9+rG9s51LqeMEDAE=";
     };
-    date = "2024-04-26";
+    date = "2024-05-04";
   };
   retroBlurSrc = {
     pname = "retroBlurSrc";
