@@ -13,7 +13,7 @@
     flake-utils,
     ...
   }:
-    {
+    (builtins.warn "This flake is deprecated. Please use github:Gerg-L/spicetify-nix instead." {
       homeManagerModules = {
         spicetify = (import ./module.nix) {
           isNixOSModule = false;
@@ -36,7 +36,7 @@
         path = ./template;
         description = "A basic home-manager configuration which installs spicetify with the Dribbblish theme.";
       };
-    }
+    })
     # legacy stuff thats just for x86_64 linux
     // (
       let
